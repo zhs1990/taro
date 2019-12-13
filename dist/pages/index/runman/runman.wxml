@@ -1,0 +1,103 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="runman">
+        <at-tabs compid="{{$compid__1188}}">
+            <at-tabs-pane compid="{{$compid__1189}}">
+                <view class="locationBox">
+                    <view class="location">
+                        <image src="/images/get.png" class="icon"></image>
+                        <view class="address">
+                            <view class="address_mes">{{startLocation}}</view>
+                            <view class="startA">请填写门牌号等信息</view>
+                        </view>
+                        <view class="phone">18043112082</view>
+                        <view class="theMostUsed">常用</view>
+                    </view>
+                    <view class="location">
+                        <image src="/images/delivery.png" class="icon"></image>
+                        <view class="address">
+                            <view class="address_mes">{{startLocation}}</view>
+                            <view class="startA">请填写门牌号等信息</view>
+                        </view>
+                        <view class="phone">18043112082</view>
+                        <view class="theMostUsed">常用</view>
+                    </view>
+                </view>
+                <at-button compid="{{$compid__1190}}">立即下单</at-button>
+            </at-tabs-pane>
+            <at-tabs-pane compid="{{$compid__1191}}">
+                <view class="locationBox">
+                    <view class="location">
+                        <image src="/images/get.png" class="icon"></image>
+                        <view class="address">
+                            <view class="address_mes">{{startLocation}}</view>
+                            <view class="startA">请填写门牌号等信息</view>
+                        </view>
+                        <view class="phone">18043112082</view>
+                        <view class="theMostUsed">常用</view>
+                    </view>
+                    <view class="location">
+                        <image src="/images/delivery.png" class="icon"></image>
+                        <view class="address">
+                            <view class="address_mes">{{startLocation}}</view>
+                            <view class="startA">请填写门牌号等信息</view>
+                        </view>
+                        <view class="phone">18043112082</view>
+                        <view class="theMostUsed">常用</view>
+                    </view>
+                </view>
+                <at-button compid="{{$compid__1192}}">立即下单</at-button>
+            </at-tabs-pane>
+            <at-tabs-pane compid="{{$compid__1193}}">
+                <view class="locationBox">
+                    <view class="location">
+                        <image src="/images/start_buy.png" class="icon"></image>
+                        <view class="address">
+                            <view class="address_mes">{{startLocation}}</view>
+                            <view class="startA">请填写门牌号等信息</view>
+                        </view>
+                        <view class="phone">18043112082</view>
+                        <view class="theMostUsed">常用</view>
+                    </view>
+                    <view class="location">
+                        <image src="/images/delivery.png" class="icon"></image>
+                        <view class="address">
+                            <view class="address_mes">鸿达光电子产业园</view>
+                            <view class="startA">请填写门牌号等信息</view>
+                        </view>
+                        <view class="phone">18043112082</view>
+                        <view class="theMostUsed">常用</view>
+                    </view>
+                </view>
+                <at-button compid="{{$compid__1194}}">立即下单</at-button>
+            </at-tabs-pane>
+            <at-tabs-pane compid="{{$compid__1195}}">
+                <view class="locationBox single">
+                    <view class="location">
+                        <image src="/images/pai.png" class="icon"></image>
+                        <view class="address">
+                            <view class="address_mes">鸿达光电子产业园</view>
+                            <view class="startA">请填写门牌号等信息</view>
+                        </view>
+                        <view class="phone">18043112082</view>
+                        <view class="theMostUsed">常用</view>
+                    </view>
+                </view>
+                <at-button compid="{{$compid__1196}}">立即下单</at-button>
+            </at-tabs-pane>
+            <at-tabs-pane compid="{{$compid__1197}}">
+                <view class="locationBox single">
+                    <view class="location">
+                        <image src="/images/do.png" class="icon"></image>
+                        <view class="address">
+                            <view class="address_mes">鸿达光电子产业园</view>
+                            <view class="startA">请填写门牌号等信息</view>
+                        </view>
+                        <view class="phone">18043112082</view>
+                        <view class="theMostUsed">常用</view>
+                    </view>
+                </view>
+                <at-button compid="{{$compid__1198}}">立即下单</at-button>
+            </at-tabs-pane>
+        </at-tabs>
+    </view>
+</block>

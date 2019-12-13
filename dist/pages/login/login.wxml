@@ -1,0 +1,11 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="contain">
+        <view class="title">登录</view>
+        <at-input compid="{{$compid__1203}}"></at-input>
+        <view class="code">
+            <at-input compid="{{$compid__1204}}"></at-input>
+            <at-button compid="{{$compid__1205}}">获取验证码</at-button>
+        </view>
+        <at-button compid="{{$compid__1206}}">登录</at-button>
+    </view>
+</block>

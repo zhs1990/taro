@@ -1,0 +1,15 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="contain">
+        <at-tabs compid="{{$compid__1199}}">
+            <at-tabs-pane compid="{{$compid__1200}}">
+                <view class="mapContainer">
+                    <map bindregionchange="handleChange" class="maps" latitude="{{latitude}}" longitude="{{longitude}}" show-location="{{true}}" id="map" data-e-regionchange-so="this"></map>
+                    <image src="/images/running_marker.png" class="marker"></image>
+                    <image src="/images/running_location.png" class="location"></image>
+                </view>
+                <runman compid="{{$compid__1201}}"></runman>
+            </at-tabs-pane>
+            <at-tabs-pane compid="{{$compid__1202}}"></at-tabs-pane>
+        </at-tabs>
+    </view>
+</block>

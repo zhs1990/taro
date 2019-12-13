@@ -1,0 +1,54 @@
+
+.runman {
+  width: 100%;
+  height: 40%; }
+  .runman .locationBox {
+    width: 100%;
+    height: 200rpx; }
+    .runman .locationBox .location {
+      width: 100%;
+      height: 80rpx;
+      padding: 0 40rpx;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin: 24rpx auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      color: #000000; }
+      .runman .locationBox .location .icon {
+        width: 38rpx;
+        height: 38rpx;
+        margin-right: 20rpx; }
+      .runman .locationBox .location .address {
+        font-size: 30rpx;
+        margin-right: auto; }
+        .runman .locationBox .location .address .address_mes {
+          width: 260rpx;
+          overflow: hidden;
+          -o-text-overflow: ellipsis;
+             text-overflow: ellipsis;
+          white-space: nowrap; }
+        .runman .locationBox .location .address .startA {
+          font-size: 26rpx;
+          color: #808080; }
+      .runman .locationBox .location .phone {
+        font-size: 26rpx;
+        margin-right: auto; }
+      .runman .locationBox .location .theMostUsed {
+        font-size: 26rpx;
+        color: #2BB7E3; }
+  .runman .single {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
